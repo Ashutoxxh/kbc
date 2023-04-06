@@ -54,11 +54,9 @@
                         placeholder="Enter password"
                       />
                     </div>
-            <div>   
-              <button @click="helogin()"> g </button>
-               <button @click="AuthProvider('facebook')"> Facebook</button>
-    <button @click="AuthProvider('google')">Google</button></div>
-
+            
+    <button @click="AuthProvider('facebook')"> Facebook</button>
+    <button @click="AuthProvider('google')">Google</button>
          
 
 
